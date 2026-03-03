@@ -1,0 +1,29 @@
+@use "src/styles/abstracts/variables" as v;
+
+._Wrapper {
+  &.variant-1 {
+    background-color: v.$neutral-900;
+    color: v.$neutral-25;
+
+    gap: 24px;
+
+    padding: 20px;
+
+    border-radius: 16px;
+  }
+
+  &.variant-2 {
+    background-color: v.$neutral-25;
+    color: v.$neutral-900;
+
+    gap: 8px;
+
+    padding: 16px;
+
+    border-radius: 16px;
+
+    ._Body {
+      height: 100%;
+    }
+  }
+}
