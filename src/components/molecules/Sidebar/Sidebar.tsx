@@ -27,9 +27,11 @@ export default function Sidebar() {
           <button
             className="menu-btn"
             onClick={() => setSidebarOpen(!sidebarOpen)}>
+            mana
             <div />
           </button>
           <h3>Dashboard Overview</h3>
+          {/* avatar */}
           <div
             style={{
               width: 35,
@@ -41,7 +43,9 @@ export default function Sidebar() {
         </div>
 
         <div className="cards">
-          <CardContainer head="Card Title">cek</CardContainer>
+          <CardContainer head="Card Title" variant="variant-2" className="card">
+            <p>Test Container</p>
+          </CardContainer>
           <div className="card">
             <h3>Users</h3>
             <p>1,234</p>

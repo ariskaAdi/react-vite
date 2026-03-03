@@ -1,7 +1,7 @@
 import { type ReactNode } from "react";
 import Flex from "../Flex";
 import c from "../../../utils/classNameParser";
-import s from "./CardContainer.module.css";
+import s from "./CardContainer.module.scss";
 import Typography from "../Typography";
 
 interface ICardContainerProps {

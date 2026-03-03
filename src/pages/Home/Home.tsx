@@ -1,7 +1,8 @@
 import React from "react";
+import UserPage from "../../features/users/pages/UserPage";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <UserPage />;
 };
 
 export default Home;
