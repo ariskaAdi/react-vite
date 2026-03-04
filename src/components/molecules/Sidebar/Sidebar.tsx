@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./index.css";
-import Button from "../../atom/Button";
+import Button from "../../../shared/ui/Button";
 import CardContainer from "../../atom/CardContainer";
 export default function Sidebar() {
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);

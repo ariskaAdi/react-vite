@@ -3,7 +3,7 @@ import { useState, type ButtonHTMLAttributes, type ReactNode } from "react";
 import s from "./Button.module.scss";
 import type { TPallette, TPalletteDepth } from "../../../types/generalType";
 import c from "../../../utils/classNameParser";
-import Typography from "../Typography";
+import Typography from "../../../components/atom/Typography";
 
 interface IButtonPallette {
   pallette?: TPallette;
